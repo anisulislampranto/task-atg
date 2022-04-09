@@ -1,0 +1,13 @@
+.header{
+    background-image: url("../../Assests/Rectangle\ 2.png");
+    background-size: cover;
+    position: relative;
+    height: 440px;
+    background-position: center;
+}
+.group-heading{
+    position: absolute;
+    color: white;
+    margin-top: 280px;
+    margin-left: 15%;
+}

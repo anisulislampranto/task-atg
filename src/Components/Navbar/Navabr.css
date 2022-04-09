@@ -12,3 +12,38 @@
     pointer-events: none;
     color: #aaa;
 }
+.menu-icon{
+    display: none;
+}
+@media only screen and (max-width: 767px) {
+    .navigation-bar{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .searchBar-big-screen{
+        display: none;
+
+    }
+    .login-big-screen{
+        display: none;
+
+    }
+    .menu-icon{
+        display: block;
+    }
+  }
+
+  @media only screen and (min-width: 768px){
+      .navigation-bar{
+          display: block;
+
+      }
+      .searchBar-small-screen{
+          display: none;
+      }
+      .login-small-screen{
+          display: none;
+      }
+  }
