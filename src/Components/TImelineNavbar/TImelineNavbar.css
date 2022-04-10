@@ -1,0 +1,23 @@
+.timeline-nav{
+    /* overflow: hidden; */
+    border-bottom: 1px solid gray;
+    padding-left: 0px;
+  
+}
+.timeline-nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 1px solid transparent;
+  
+}
+.timeline-nav a:hover{
+    border-bottom: 1px solid black;
+    color: gray;
+}
+.timeline-nav a.active{
+    border-bottom: 1px solid black;
+}

@@ -63,7 +63,7 @@ const Navbar = () => {
             </p>
           </>
         ) : (
-          <span></span>
+          <span style={{ display: "none" }}></span>
         )}
       </div>
     </div>
